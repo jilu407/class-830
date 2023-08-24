@@ -19,3 +19,6 @@
         service:
           name: httpd
           state: restarted
+      - name: start the tomcat server 
+        shell:
+          sh /opt/tomcat/bin/startup.sh
